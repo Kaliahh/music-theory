@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <div>
+      <navigation-button content="Chords" to="/chords"></navigation-button>
+      <navigation-button content="Tones" to="/tones"></navigation-button>
+      <navigation-button content="Circle of Fifths" to="/circle"></navigation-button>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import NavigationButton from '@/components/NavigationButton'
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+  components: { NavigationButton }
 }
 </script>
