@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import NavigationButton from '@/components/NavigationButton'
+import NavigationButton from '@/components/buttons/NavigationButton'
 export default {
   name: 'HomeView',
   components: { NavigationButton }

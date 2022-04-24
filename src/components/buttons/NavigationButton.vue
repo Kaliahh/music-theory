@@ -8,7 +8,7 @@
 
 <script>
 
-import ButtonComponent from '@/components/ButtonComponent'
+import ButtonComponent from '@/components/buttons/ButtonComponent'
 export default {
   name: 'NavigationButton',
   props: {

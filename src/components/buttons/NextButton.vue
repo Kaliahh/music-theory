@@ -3,19 +3,19 @@
 </template>
 
 <script>
-import ButtonComponent from '@/components/ButtonComponent'
+import ButtonComponent from '@/components/buttons/ButtonComponent'
 export default {
-  name: 'BackButton',
+  name: 'NextButton',
   components: { ButtonComponent }
 }
 </script>
 
 <style scoped>
 button {
-  background-color: rgb(90, 47, 47);
+  background-color: rgb(47, 70, 47);
 }
 
 button:hover {
-  background-color: rgb(100, 47, 47);
+  background-color: rgb(47, 80, 47);
 }
 </style>
